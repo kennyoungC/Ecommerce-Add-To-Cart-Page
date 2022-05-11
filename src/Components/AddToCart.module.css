@@ -1,0 +1,8 @@
+.btnAdd {
+  width: 100%;
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(0, 0%, 100%);
+  padding: 8px 12px;
+  border-radius: 9px;
+}

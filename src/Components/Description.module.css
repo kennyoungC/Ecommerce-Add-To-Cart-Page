@@ -1,0 +1,45 @@
+.subheader {
+  color: hsl(26, 100%, 55%);
+  letter-spacing: 3px;
+}
+.h1 {
+  font-weight: bolder;
+  color: hsl(220, 13%, 13%);
+}
+.product-desc {
+  color: hsl(219, 9%, 45%);
+  line-height: 1.4;
+}
+.price {
+  font-size: 28px;
+  font-weight: bolder;
+  color: hsl(220, 13%, 13%);
+}
+.price + span {
+  background-color: hsl(25, 100%, 94%);
+  padding: 0 6px;
+  border-radius: 4px;
+  color: hsl(26, 100%, 55%);
+  font-weight: bold;
+}
+.discount-price {
+  text-decoration: line-through;
+}
+.quantity {
+  background-color: hsl(25, 100%, 94%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 6px;
+  font-weight: bold;
+  border-radius: 9px;
+}
+.quantity button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  /* font-size: 24px; */
+  font-weight: bold;
+  color: hsl(26, 100%, 55%);
+  padding: 6px;
+}

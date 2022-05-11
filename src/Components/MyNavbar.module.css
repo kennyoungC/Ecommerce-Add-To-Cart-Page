@@ -1,0 +1,31 @@
+.cart {
+  /* cursor: pointer; */
+  position: relative;
+}
+.cart i {
+  cursor: pointer;
+}
+.cart > div {
+  width: 320px;
+  background-color: white;
+  border-radius: 11px;
+  /* border: 2px solid red; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  z-index: 1111;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.17);
+  transition: all 0.3s;
+}
+
+.cart > div hr {
+  margin: 0;
+}
+.cart > div button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cart > div p {
+  font-size: 16px;
+}

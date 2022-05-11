@@ -1,0 +1,4 @@
+.selected-img {
+  border: 2px yellow solid;
+  filter: opacity(0.5);
+}
